@@ -4,7 +4,7 @@ using Terraria.Audio;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TerraArchiveShopSlot
+namespace TerraArchiveCurrencySlot
 {
     public class Pyroxene : ModItem
     {

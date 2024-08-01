@@ -13,9 +13,9 @@ using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
 using Terraria.UI;
 
-namespace TerraArchiveShopSlot
+namespace TerraArchiveCurrencySlot
 {
-    public class TerraArchiveShopSlot : Mod
+    public class TerraArchiveCurrencySlot : Mod
     {
         public static readonly int Pyroxene = CustomCurrencyManager.RegisterCurrency(new PyroxeneCurrency(ModContent.ItemType<Pyroxene>(), 999L, "Pyroxene"));
 
@@ -153,12 +153,12 @@ namespace TerraArchiveShopSlot
             shop.Add(new Item(ItemID.Zenith)
             {
                 shopCustomPrice = 2,
-                shopSpecialCurrency = TerraArchiveShopSlot.Pyroxene
+                shopSpecialCurrency = TerraArchiveCurrencySlot.Pyroxene
             });
             shop.Add(new Item(ItemID.PoopBlock)
             {
                 shopCustomPrice = 2,
-                shopSpecialCurrency = TerraArchiveShopSlot.Pyroxene
+                shopSpecialCurrency = TerraArchiveCurrencySlot.Pyroxene
             });
         }
     }

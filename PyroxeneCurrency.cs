@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Terraria.GameContent.UI;
 
-namespace TerraArchiveShopSlot
+namespace TerraArchiveCurrencySlot
 {
     public class PyroxeneCurrency : CustomCurrencySingleCoin
     {
