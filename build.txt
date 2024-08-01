@@ -1,0 +1,3 @@
+displayName = TerraArchive Shop Slot
+author = Pure_Epic
+version = 0.1
